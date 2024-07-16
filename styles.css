@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    margin: auto;
+}
+
+.gridimg {
+  display: block;
+  margin: auto;
+}
+  .col-1 {width: 75%}
+  .col-2 {margin:10px}
+  .col-3 {margin:10px}
+html {
+  background-color: #C7CCDB;
+}
+p {
+  color: #293241;
+}
+
+.nav {
+  display: inline;
+  padding-left: 10px;
+}
+.navhead {
+  padding-left: 10px;
+}
+.col-2 {
+  padding-right:50px;
+}
+.col-3 {
+  padding-right:50px;
+}
